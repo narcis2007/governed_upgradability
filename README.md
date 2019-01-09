@@ -1,4 +1,4 @@
-Instructions how to rest the governed upgradability:
+Instructions to test the governed upgradability of the smart contracts:
 
 Install ZeppelinOS 2.0: `npm install --global zos`
 
@@ -8,7 +8,9 @@ Install Ganache: https://truffleframework.com/ganache and make sure it runs on p
 
 `truffle migrate` - this should deploy the token, governance contract and initialize them, their addresses will be show in the console, save them somewhere because they will be needed later
  
-in a new console`zos session --network development --from 0x2CF2A84F2f62128De32Fc055B75F4247Efa1a04E --expires 720000` the address is the second address from the ganache account list(or any address besides the first one can be there, there will be issues if it's the first one)
+in a new console
+
+`zos session --network development --from 0x2CF2A84F2f62128De32Fc055B75F4247Efa1a04E --expires 720000` the address is the second address from the ganache account list(or any address besides the first one can be there, there will be issues if it's the first one)
 
 `zos push` - this will deploy the logic contracts and will create a file zos.dev-* with the details
 
