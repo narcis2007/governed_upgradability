@@ -7,7 +7,7 @@ yarn-error.log*
 node_modules/
 .idea
 .zos.session
-
+package-lock.json
 zos.dev-*.json
 
 build/
