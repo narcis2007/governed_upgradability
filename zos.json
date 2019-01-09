@@ -1,0 +1,9 @@
+{
+  "zosversion": "2",
+  "name": "governed_upgradability",
+  "version": "0.1.0",
+  "contracts": {
+    "MyContract_v0": "MyContract_v0",
+    "MyContract_v1": "MyContract_v1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "zos-lib-simple-example",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "npx truffle compile && npx truffle exec index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "openzeppelin-eth": "^2.0.2",
+    "solc": "^0.4.25",
+    "truffle": "^5.0.1",
+    "zos-lib": "^2.0.2"
+  }
+}
