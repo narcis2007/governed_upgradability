@@ -1,4 +1,4 @@
-Instructions to test the governed upgradability of the smart contracts:
+Instructions on how to test the governed upgradability of the smart contracts:
 
 Install ZeppelinOS 2.0: `npm install --global zos`
 
